@@ -1,0 +1,22 @@
+#portfolio-projects .technologies .tech-icons {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+#portfolio-projects .technologies .tech-icons img{
+    filter: grayscale(100%);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+#portfolio-projects .technologies .tech-icons img:hover {
+    filter: grayscale(0);
+}
+#portfolio-projects .technologies .tech-icons .icon img {
+    width: 100%;
+    max-width: 60px;
+}
+#portfolio-projects .technologies .tech-icons .icon.icon-2 img {
+    opacity: 0.8;
+}

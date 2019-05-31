@@ -1,0 +1,11 @@
+#portfolio-projects .technologies .icons {
+    grid-template-columns: repeat(4,1fr);
+}
+#portfolio-projects .technologies .icons .icon.icon-2 img {
+    opacity: 0.8;
+}
+#portfolio-projects .technologies .icons .icon.icon-4 img {
+    opacity: 0.5;
+    width: 72px;
+    height: 68px;
+}

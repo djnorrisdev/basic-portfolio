@@ -1,0 +1,15 @@
+#portfolio-projects .technologies .tech-icons .icon.icon-2.react img {
+  max-width: 144px;
+}
+
+#portfolio-projects .project-image .img.codegainz {
+  background-size: auto !important;
+}
+
+/*Phones*/
+@media only screen and (max-width: 767px) {
+  #portfolio-projects .project-image .img.codegainz {
+    background-size: contain !important;
+    height: 400px;
+  }
+}

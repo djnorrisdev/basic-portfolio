@@ -1,0 +1,6 @@
+#portfolio-projects .technologies .icons {
+    grid-template-columns: 1fr 1fr !important;
+}
+#portfolio-projects .technologies .icons .icon.icon-2 img {
+    opacity: 0.8;
+}
